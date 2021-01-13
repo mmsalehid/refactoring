@@ -14,14 +14,29 @@ public class Teller {
     }
 
     public void addSpecialOffer(SpecialOfferType offerType, Product product, double argument) {
-        this.offers.put(product, new Offer(offerType, product, argument));
+        this.offers.put(product, getOfferByOfferType(offerType, argument));
+    }
+
+    private Offer getOfferByOfferType(SpecialOfferType offerType, double argument){
+        if(offerType == SpecialOfferType.FiveForAmount){
+            return new FiveForAmount(argument);
+        }
+        else if (offerType == SpecialOfferType.ThreeForTwo){
+            return new ThreeForTwoOffer(argument);
+        }
+        else if (offerType == SpecialOfferType.TwoForAmount){
+            return new TwoForAmount(argument);
+        }
+        else {
+            return new TenPercentDiscount(argument);
+        }
     }
 
     public Receipt checksOutArticlesFrom(ShoppingCart theCart) {
         Receipt receipt = new Receipt();
         List<ProductQuantity> productQuantities = theCart.getItems();
         productQuantities.forEach(pq -> receipt.addProduct(getReceiptItem(pq)));
-        theCart.handleOffers(receipt, this.offers, this.catalog);
+        theCart.handleOffers(receipt, this.offers);
         return receipt;
     }
 
