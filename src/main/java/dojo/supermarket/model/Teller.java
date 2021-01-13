@@ -33,7 +33,7 @@ public class Teller {
         }
     }
 
-    public Receipt checksOutArticlesFrom(ShoppingCart theCart) {
+    public Receipt createReceiptFromCart(ShoppingCart theCart) {
         Receipt receipt = new Receipt();
         List<ProductQuantity> productQuantities = theCart.getItems();
         productQuantities.forEach(pq -> receipt.addProduct(getReceiptItem(pq)));

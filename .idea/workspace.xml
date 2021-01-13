@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d2c263e-cd92-4896-a16f-6b017c55d68b" name="Default Changelist" comment="" />
+    <list default="true" id="9d2c263e-cd92-4896-a16f-6b017c55d68b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dojo/supermarket/model/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dojo/supermarket/model/SupermarketTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +19,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Receipt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ShoppingCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="510">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="e#330#331#0" expanded="true" />
                 <element signature="e#375#376#0" expanded="true" />
@@ -33,41 +51,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ReceiptItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dojo/supermarket/model/SupermarketTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ProductQuantity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/SupermarketCatalog.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Offer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/ReceiptPrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding>
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ThreeForTwoOffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            <state relative-caret-position="170">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding>
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#154#155#0" expanded="true" />
@@ -87,37 +108,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/TwoForAmount.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/TenPercentDiscount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/FiveForAmount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+            <state relative-caret-position="119">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dojo/supermarket/ReceiptPrinterTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="306">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/ReceiptPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+            <state relative-caret-position="323">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,9 +167,9 @@
         <option value="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ThreeForTwoOffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ReceiptItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java" />
         <option value="$PROJECT_DIR$/src/main/java/dojo/supermarket/ReceiptPrinter.java" />
         <option value="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/TwoForAmount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java" />
       </list>
     </option>
   </component>
@@ -344,10 +360,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18992000" />
+    <option name="totallyTimeSpent" value="19758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="994" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27321237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -444,51 +461,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/SpecialOfferType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Offer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/TenPercentDiscount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Receipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ProductQuantity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -525,15 +526,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ReceiptItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="510">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
             <element signature="e#330#331#0" expanded="true" />
             <element signature="e#375#376#0" expanded="true" />
@@ -543,31 +544,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/ReceiptPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="323">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#244#245#0" expanded="true" />
             <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ThreeForTwoOffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,6 +566,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/ThreeForTwoOffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/TenPercentDiscount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dojo/supermarket/model/Teller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
