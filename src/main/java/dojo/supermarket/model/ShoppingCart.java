@@ -33,14 +33,4 @@ public class ShoppingCart {
         }
     }
 
-    void handleOffers(Receipt receipt, Map<Product, Offer> offers) {
-        for (ReceiptItem receiptItem: receipt.getItems()) {
-            Offer offer = offers.get(receiptItem.getProduct());
-            if (offer != null){
-                Discount discount = offer.handle(receiptItem);
-                if (discount != null)
-                    receipt.addDiscount(discount);
-            }
-        }
-    }
 }

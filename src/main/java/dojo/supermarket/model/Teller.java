@@ -1,5 +1,6 @@
 package dojo.supermarket.model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -36,7 +37,7 @@ public class Teller {
         Receipt receipt = new Receipt();
         List<ProductQuantity> productQuantities = theCart.getItems();
         productQuantities.forEach(pq -> receipt.addProduct(getReceiptItem(pq)));
-        theCart.handleOffers(receipt, this.offers);
+        handleOffers(receipt, theCart);
         return receipt;
     }
 
@@ -46,6 +47,25 @@ public class Teller {
         double unitPrice = this.catalog.getUnitPrice(p);
         double price = quantity * unitPrice;
         return new ReceiptItem(p, quantity, unitPrice, price);
+    }
+
+    void handleOffers(Receipt receipt, ShoppingCart theCart) {
+        List<ReceiptItem> actualReceiptItems = createActualReceiptItems(theCart.productQuantities);
+        for (ReceiptItem receiptItem: actualReceiptItems) {
+            Offer offer = offers.get(receiptItem.getProduct());
+            if (offer != null){
+                Discount discount = offer.handle(receiptItem);
+                if (discount != null)
+                    receipt.addDiscount(discount);
+            }
+        }
+    }
+    private List<ReceiptItem> createActualReceiptItems(Map<Product, Double> productQuantities){
+        List<ReceiptItem> receiptItems= new ArrayList<>();
+        for(Product p: productQuantities.keySet()){
+            receiptItems.add(getReceiptItem(new ProductQuantity(p, productQuantities.get(p))));
+        }
+        return receiptItems;
     }
 
 }

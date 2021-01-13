@@ -15,6 +15,7 @@ public class ReceiptItem {
         this.totalPrice = totalPrice;
     }
 
+
     public double getPrice() {
         return this.price;
     }
